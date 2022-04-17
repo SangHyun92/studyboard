@@ -40,10 +40,4 @@ path:
 
 logging:
   config: 'classpath:${path.logs.folder}logback.xml'
-log4jdbc:
-  log4j2:
-    properties:
-      file: 'classpath:${path.logs.folder}log4jdbc.log4j2.properties'
-    
-
-    
+ 
